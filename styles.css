@@ -1,0 +1,231 @@
+body{
+    background-color: black;
+}
+.zzzz{
+    background-color: black;
+}
+
+
+header{
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px  black;
+}
+
+li a::after{
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: 0.5s ease;
+}
+nav li a:hover::after{
+    width: 100%
+}
+
+.img2{
+  
+    width: 60px;
+    height: 60px;
+}
+.img1{
+    margin-left: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    transition: color 1s;
+    position: relative;
+}
+
+li a:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+nav{
+    background-color: rgb(152, 152, 158);
+    margin-top: 20px;
+    padding: 8px 8px;
+}
+
+.titre{
+    color: white;
+}
+
+
+.Accueil {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55%;
+    background-color: black;
+}
+
+.Accueilgauche{
+    width: 60%;
+    margin-right: 10px;
+}
+
+.Accueilimage {
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    float: right;
+}
+
+.formations{
+    display: flex;
+    background-color: black;
+    
+}
+/*.card-body{
+justify-content: space-between;
+}*/
+.contenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+h2{
+    
+    text-align: center;
+}
+
+.zone{
+    display: inline;
+    background-color: black;
+    
+}
+
+.zone{
+ 
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    }
+footer a{
+    color: white;
+}
+    
+.mail:hover{ /*:hover permet de changer l'aspect des éléments au survol*/
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    }
+
+
+
+/* Styles généraux pour le pied de page */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-6 {
+    width: 48%;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #000;
+}
+
+.bottom-bar {
+    background-color: #ddd;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom-bar p {
+    margin: 0;
+    color: #777;
+    font-size: 12px;
+}
+
+    
