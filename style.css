@@ -7,8 +7,12 @@
 body{
     background-color: #d3e1e2;
 }
-section{
+.nav_bar{
     margin-top:100px ;
+    padding: 0 10%;
+}
+.ct{
+    margin-top:800px ;
     padding: 0 10%;
 }
 header{
@@ -19,16 +23,19 @@ header{
     top: 0;
     left : 0; 
     right: 0;
-    height:  30px;
-    background-color: #EEF1F6;
-    box-shadow: 0 0 10px #333;
+    height:  100vh;
+    margin-bottom: 5%;
     padding : 20px 5%;
+    background-image: url(https://edukiya.com/wp-content/uploads/2020/06/pigier-benin-cotonou-formation-afrique-81-scaled.jpg);
+    background-size: cover;
 }
 .title{
     font-size: 20px;
 }
 img{
     width: 50px;
+    visibility: hidden;
+    margin-bottom: 50%;
 }
 
 .nav_bar ul{
